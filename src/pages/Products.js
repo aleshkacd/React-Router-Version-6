@@ -1,8 +1,11 @@
 import { Link } from "react-router-dom"
 
+import Offers from "./Offers"
+
 export default function Products() {
   return (
     <div className="content">
+      <Offers />
       <h3>Hoodies</h3>
       <div className="products">
         {[0,1,2,3].map(p => (

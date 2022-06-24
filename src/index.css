@@ -36,3 +36,23 @@ nav h1 {
   display: flex;
   gap: 20px;
 }
+.contact{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+.contact image{
+  padding: 5px;
+}
+.ta-r{
+  text-align: right;
+}
+.light{
+  font-weight: lighter;
+  font-size: smaller;
+}
+button{
+  padding: 5px;
+  font-weight: bold;
+  color: rgb(3, 196, 154);
+}
